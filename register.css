@@ -1,0 +1,124 @@
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, 
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend { margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; background: transparent; }
+body { font-family:'Segoe UI Light_',Courier New, 'Raleway', Arial, sans-serif;
+background-color:rgba(245,245,245,0.5);height:100%;width:86%;margin:0% 7%;}
+.centerspace div{overflow:auto;}
+a:hover{color:white;text-decoration:none;height:30px;width:110px;}
+#overm{height:250px;position:relative;}
+#menu{height:52px;z-index:2;margin-top:-52px;background-color:rgba(30,30,20,0.7);position:relative;}
+.leftcol{
+TOP:0px;padding-top:250px;height:669px;position:fixed;float:left;padding-top:252px;
+width:17%;z-index:1;
+background-color:rgba(20, 10, 15, 0.6);position:fixed;margin:0px;}
+.leftcol li ,.leftcol ul{width:100%;z-index:2;}
+.icon {
+margin: 0% .3%;
+padding: 0px 5px 0px 0px;;
+width: 30px;
+height: 30px;vertical-align: -8px;
+}
+#phone{cursor:pointer;color:#a9a9a9;float:right;padding-right:150px;height:45px;}
+#mobnox2{display:none;}
+.addVar{color:red;cursor:pointer;}
+.removeVar{cursor:pointer;}
+.lost{color:red;}
+#menu #popul input[type="text"],input[type="password"]{color:black;}
+#menu #popul input[type="text"]:hover,#menu #popul  input[type="password"]:hover{color:black;height:25px;background: none repeat scroll 0 0 #FCFCFC;
+}
+.centerspace{min-height:500px;width:80%;position:relative;overflow:auto;float:right;}
+#menu li,#leftcol1 li,#leftcol2 li{float:left;list-style:none;height:auto;}
+#menu  li ul{position: absolute;top:50px;display:none;right:0px;}
+#menu li ul li{background-color:rgba(200,170,140,0.9);display:block;width:150px;color:black;}
+#menu li  :active{border: 1px solid rgba(250,250,250,0.90);}
+#menu #logina1{float:right;}
+#err{color:red;}
+#menu li  a{
+	width:110px;height:30px;
+	padding:10px 10px;margin:0px 0px;
+	float:left;
+	text-decoration:none;display:block;
+	text-align:center;font-weight:bold;
+	color:white;text-shadow: -1px 1px 1px #FeFeFe;}
+#menu li  :hover  ,#menu li:hover ul{
+	/*text-shadow: 0px 0px 0px #FFFFFF;*/
+	background-color: rgba(71, 80, 83, 0.72);
+	display:block;}
+#leftcol2 li  a,#leftcol1 li  a{
+	height:30px;list-style:none;
+	padding:10px 10px;margin:0px 0px;
+	background-color:rgba(20,20,20,00.9);
+	text-decoration:none;display:block;
+	text-align:left;font-weight:bold;font-size:1.2em;
+	color:white;text-shadow: -1px 1px 1px #FeFeFe;}
+#leftcol2 li  :hover ,#leftcol1 li  :hover  {
+	text-shadow: 0px 0px 0px #FFFFFF;
+	background:linear-gradient(to bottom,  #00b7ea 22%,#009ec3 73%);
+	width:100%;height:30px;
+	color:white;
+	text-decoration:none;
+	display:block;}
+#leftcol2 li  :active, #leftcol1 li  :active{border: 1px solid #FFFFEE;height:inherit;}
+#pls{font-size:1.2em;font-weight:bold;color:#a9a9a9;padding:10px 0px 10px 50px;} 
+#rform{display:none;}
+#compsrvs{padding:15px 20px 10px 50px;display:none;}
+#leftcol1{width:100%;display:block;background-color:rgba(20,20,20,00.9);}
+#leftcol2{width:100%;display:none;background-color:rgba(20,20,20,00.9);}
+.cap{font-weight:bold;}
+.centerspace .formdiv
+{
+width:260px;
+min-height:60px;
+float:left;
+}
+div.centerspace li{list-style:none;width:551px;padding-top:40px;; padding-left:50px;}
+#compreg{display:none;}
+#logb1{width:160px;}
+#masadv
+{
+margin-top:50px;padding-left:40px;
+}
+.adv
+{
+display:block;
+width:230px;height:115px;background-color:#F5F5DC;
+float:left;
+margin:10px 10px 10px 10px;
+-moz-box-shadow: 5px 5px 5px #888888; /* Firefox */
+-webkit-box-shadow: 10px 10px 5px #888888; /* Safari and Chrome */
+box-shadow: 10px 10px 5px #888888;
+}
+#detais{font-weight:bold;}
+.black_overlay{
+	display:none;
+	position:fixed;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	z-index:1001;
+	-moz-opacity: 0.8;
+	opacity:.80;
+	filter: alpha(opacity=80);
+}
+.white_content {
+	display:none;
+	position:absolute;
+	top: 35%;
+	left: 35%;
+	width: 25%;
+	height: 8%;
+	padding: 55px;
+	border: 16px solid orange;
+	background-color: white;
+	z-index:1002;
+	overflow: auto;
+    }
+
+.footer{
+	height:52px;background-color:rgba(30,30,20,0.9);position:relative;text-align:center;font-weight:bold;clear:both;width:100%;
+	bottom:0px;z-index:2;
+}

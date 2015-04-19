@@ -1,0 +1,101 @@
+/* CSS Document 
+body {
+	}
+
+#outer_container {
+	
+
+input {
+	background:#DDF99A;
+    border: 1px solid #B4D349;
+    border-radius: 2px 2px 2px 2px;
+    padding: 5px;
+    width: 90%;
+}*/
+
+#loader{
+	position: absolute;
+	text-align: center;
+    z-index: 9999;
+	margin:auto;
+	display:none;
+	top: 50%;
+	left: 50%;
+}
+
+.delall {
+	background: #1F9DBF;
+    border: medium none;
+    color: #FFFFFF;
+    cursor: pointer;
+    height: 35px;
+    margin: 0 0 15px 45px;
+    padding: 0 5px 2px;
+}
+
+#data_tbl {
+	font-family:Arial, Helvetica, sans-serif;
+	border-left:1px solid #ccc;
+	border-top:1px solid #ccc;
+}
+
+#data_tbl tbody tr:hover{
+	background-color:#FFF0D2;
+}
+
+#data_tbl td,#data_tbl th{
+	padding:7px;
+	border-right:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+}
+
+#data_tbl thead {
+    background: #00b7ea;
+	background: -moz-linear-gradient(top,  #00b7ea 22%, #009ec3 73%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(22%,#00b7ea), color-stop(73%,#009ec3));
+	background: -webkit-linear-gradient(top,  #00b7ea 22%,#009ec3 73%);
+	background: -o-linear-gradient(top,  #2D554C 22%,#729EA8 73%);
+	background: -ms-linear-gradient(top,  #2D554C 22%,#729EA8 73%);
+	background:linear-gradient(to bottom, #2D554C 22%,#729EA8 73%);
+	/* linear-gradient(to bottom,  #00b7ea 22%,#009ec3 73%);*/
+	
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b7ea', endColorstr='#009ec3',GradientType=0 );
+    color: #FFFFFF;
+    font-weight: bold;
+    height: 35px;
+}
+
+.updrow,.delrow{
+	cursor:pointer;
+}
+
+.navi {
+	margin: 15px 50px;
+	width: 91%;
+}
+
+.pagin ,.pagin :visited{
+	padding: 8px;
+	margin-left: 5px;
+	font:bold 11px/30px arial, serif;
+	background-color:rgba(180,180,180,0.8);
+	cursor:pointer;
+}
+
+
+/*.pagin a {
+	border:solid 1px #036E92;
+	text-decoration:none;
+	background:#F8FCFF;
+	padding:6px 7px 5px;
+}*/
+#tbl_div{margin:20px;}
+.pagin a:hover, .pagin a:active, .pagin span.current {
+    background: -moz-linear-gradient(center top , #088899 1px, #036E92 1px, #049DB8) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background: linear-gradient(to top , #088899 1px, #036E92 1px, #049DB8) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #F0F0FF;
+}
+
+.current{
+	background-color:rgba(160,160,160,1);
+}
